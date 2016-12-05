@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Group Work</title>
@@ -9,6 +9,46 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
+        
+        .containerlaptops {
+    width:300px;
+    height:150px;
+    border:solid black 1px;
+    position:relative;
+    font-family:"Arial Black", Gadget, sans-serif;
+    float:left;
+    margin:20px;
+   }
+
+.topbox{
+    width:298px;
+    height:30px;
+    background-color: lightgrey;
+    padding:1px;
+}
+
+.containerlaptops .content > img {
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:40%;
+    left:10%;
+    }
+
+.boxtext{
+    text-align: center;
+    width:70%;
+    float:right;
+    padding-top:10px;
+}
+
+div:hover{
+    background-color:whitesmoke;
+}
+        
+        
+        
+        
         /* Styling of right table with latest bought and last arrival items*/
         .containerlastsold {
             max-width: 250px;
@@ -96,7 +136,50 @@
                 </nav>
 
                 <div class="col-sm-6">
-                   LAPTOP PAGE
+
+                    <div class="containerlaptops">
+                        <div class="topbox">DATOR 1</div>
+                        <div class="content">
+                            <img src="images/laptop/laptop1.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">5490:-</a>
+                        </div>
+                    </div>
+
+                    <div class="containerlaptops">
+                        <div class="topbox">DATOR 2</div>
+                        <div class="content">
+                            <img src="images/laptop/laptop2.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Enkel dator för skolan med lång batteritid <br />
+                            Pris:<a href="http://www.elgiganten.se">3490:-</a>
+                        </div>
+                    </div>
+
+                    <div class="containerlaptops">
+                        <div class="topbox">DATOR 3</div>
+                        <div class="content">
+                            <img src="images/laptop/laptop3.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">7490:-</a>
+                        </div>
+                    </div>
+
+                    <div class="containerlaptops">
+                        <div class="topbox">DATOR 3</div>
+                        <div class="content">
+                            <img src="images/laptop/laptop4.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Enkel dator för skolan med lång batteritid <br />
+                            Pris:<a href="http://www.elgiganten.se">4490:-</a>
+                        </div>
+                    </div>
                     </div>
 
 
@@ -217,7 +300,7 @@
                         </div>
                         <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="fa fa-twitter-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook-official" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-snapchat-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram" style="font-size: 24px;" aria-hidden="true"></i></a></div>
                     </div>
-                    <p class="copyright">Company Name � 2016</p>
+                    <p class="copyright">Company Name � 2016</p>
                 </div>
             </footer>
         </div>
