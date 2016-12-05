@@ -1,0 +1,46 @@
+﻿
+
+		/* Styling of right table with latest bought and last arrival items*/
+		.containerlastsold {
+    max-width: 250px;
+    max-height: 600px;
+    border: solid 3px #337ab7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+		}
+
+		/* Remove the navbar's default margin-bottom and rounded borders */
+		.navbar {
+			margin-bottom: 0;
+			border-radius: 0;
+			height: 65px;
+		}
+
+		/* Add a gray background color and some padding to the footer */
+
+		footer {
+			background-color: black;
+			padding: 0px;
+
+			color: #fff;
+			width: 100%;
+		}
+
+		.footer ul  {
+			list-style-type: none;	
+		}
+		/*Affix plugin allows an element to become affixed (locked) to an area on the page.*/  
+		.affix {
+			top: 20px;
+		}
+
+		/*Caousel(slide show)*/
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 65%;
+			margin: auto;
+		}
+
+		.panel {border: none;}
+		.carousel-control.left{background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);}
+		.carousel-control.right {background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);}
