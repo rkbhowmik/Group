@@ -9,13 +9,41 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
-        /* Styling of right table with latest bought and last arrival items*/
-        .containerlastsold {
-            max-width: 250px;
-            max-height: 600px;
-            border: solid 3px #337ab7;
-            border-radius: 10px;
-            margin-bottom: 10px;
+        .containerlaptops {
+            width: 250px;
+            height: 150px;
+            border: solid black 1px;
+            position: relative;
+            font-family: "Arial Black", Gadget, sans-serif;
+            float: left;
+            margin: 20px;
+        }
+
+        .topbox {
+            width: 248px;
+            height: 30px;
+            background-color: lightgrey;
+            padding: 1px;
+        }
+
+        .containerlaptops .content > img {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 40%;
+            left: 10%;
+        }
+
+        .boxtext {
+            text-align: center;
+            width: 70%;
+            float: right;
+            padding-top: 10px;
+        }
+
+        .col-sm-3 div:hover {
+            background-color: whitesmoke;
+            cursor: pointer;
         }
 
         /* Remove the navbar's default margin-bottom and rounded borders */
@@ -93,132 +121,118 @@
                     </ul>
                 </nav>
 
-                <div class="col-sm-6">
-                    PRINTER PAGE
-                </div>
-
-
-                <!--Column right-->
                 <div class="col-sm-3">
-                    <div class="containerlastsold">
-                        <h3>Last Bought:</h3>
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Type</th>
-                                    <th>Brand</th>
-                                    <th>Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Laptop</td>
-                                    <td>Lenovo Mix 300</td>
-                                    <td>3490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Desktop</td>
-                                    <td>Hp desktop</td>
-                                    <td>8490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Printer</td>
-                                    <td>Lexmark Cn3010</td>
-                                    <td>2290:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Desktop</td>
-                                    <td>Hp desktop</td>
-                                    <td>8490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Laptop</td>
-                                    <td>Lenovo Mix 300</td>
-                                    <td>3490:-</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 4</div>
+                        <div class="content">
+                            <img src="images/printer/printer1.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">5490:-</a>
+                        </div>
                     </div>
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 2</div>
+                        <div class="content">
+                            <img src="images/printer/printer2.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">5490:-</a>
+                        </div>
 
-                    <div class="containerlastsold">
-                        <h3>Last Arrivals:</h3>
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Type</th>
-                                    <th>Brand</th>
-                                    <th>Price</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Laptop</td>
-                                    <td>Lenovo Mix 300</td>
-                                    <td>3490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Desktop</td>
-                                    <td>Hp desktop</td>
-                                    <td>8490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Printer</td>
-                                    <td>Lexmark Cn3010</td>
-                                    <td>2290:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Desktop</td>
-                                    <td>Hp desktop</td>
-                                    <td>8490:-</td>
-                                </tr>
-                                <tr>
-                                    <td>Laptop</td>
-                                    <td>Lenovo Mix 300</td>
-                                    <td>3490:-</td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
+                <div class="col-sm-3">
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 1</div>
+                        <div class="content">
+                            <img src="images/printer/printer1.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Enkel dator för skolan med lång batteritid <br />
+                            Pris:<a href="http://www.elgiganten.se">3490:-</a>
+                        </div>
+                    </div>
 
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 3</div>
+                        <div class="content">
+                            <img src="images/printer/printer3.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">7490:-</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 4</div>
+                        <div class="content">
+                            <img src="images/printer/printer4.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Enkel dator för skolan med lång batteritid <br />
+                            Pris:<a href="http://www.elgiganten.se">4490:-</a>
+                        </div>
+                    </div>
+                    <div class="containerlaptops">
+                        <div class="topbox">PRINTER 1</div>
+                        <div class="content">
+                            <img src="images/printer/printer1.jpg" alt="dator.jpg">
+                        </div>
+                        <div class="boxtext">
+                            Dator med snygg design och grym prestanda. <br />
+                            Pris:<a href="http://www.elgiganten.se">5490:-</a>
+                        </div>
 
+                    </div>
+                </div>
             </div>
+
+
         </div>
-        <br><br><br><br><br>
+
+
+    </div>
+    </div>
+    <br><br><br><br><br>
 
 
 
-        <!--Footer-->
-        <div class="footer">
-            <footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-push-6 item text">
-                            <h3>Company Name</h3>
-                            <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                        </div>
-                        <div class="col-md-3 col-md-pull-6 col-sm-4 item">
-                            <h3>Services</h3>
-                            <ul>
-                                <li><a href="#">Sales</a></li>
-                                <li><a href="#">Delivery</a></li>
-                                <li><a href="#">Repair</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-md-pull-6 col-sm-4 item">
-                            <h3>About</h3>
-                            <ul>
-                                <li><a href="#">Company</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="fa fa-twitter-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook-official" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-snapchat-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram" style="font-size: 24px;" aria-hidden="true"></i></a></div>
+    <!--Footer-->
+    <div class="footer">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6 item text">
+                        <h3>Company Name</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                     </div>
-                    <p class="copyright">Company Name © 2016</p>
+                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Sales</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Repair</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-md-pull-6 col-sm-4 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-sm-4 item social"><a href="#"><i class="fa fa-twitter-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-facebook-official" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-snapchat-square" style="font-size: 24px;" aria-hidden="true"></i></a> <a href="#"><i class="fa fa-instagram" style="font-size: 24px;" aria-hidden="true"></i></a></div>
                 </div>
-            </footer>
-        </div>
+                <p class="copyright">Company Name � 2016</p>
+            </div>
+        </footer>
+    </div>
     </div>
 
 </body>
