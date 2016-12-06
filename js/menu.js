@@ -1,0 +1,23 @@
+﻿document.writeln(" <nav class=\"navbar navbar-inverse\"> "); 
+document.writeln("         <div class=\"container-fluid\"> "); 
+document.writeln("             <div class=\"navbar-header\"> "); 
+document.writeln("                 <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\"> "); 
+document.writeln("                     <span class=\"icon-bar\"></span> "); 
+document.writeln("                     <span class=\"icon-bar\"></span> "); 
+document.writeln("                     <span class=\"icon-bar\"></span> "); 
+document.writeln("                 </button> "); 
+document.writeln("                 <a class=\"navbar-brand navbar-link\" href=\"#\"><span style=\"color: #fff\"><strong>ComputerShop Inc.</strong></span> </a> "); 
+document.writeln("             </div> "); 
+document.writeln("             <div class=\"collapse navbar-collapse\" id=\"myNavbar\"> "); 
+document.writeln("                 <ul class=\"nav navbar-nav navbar-right\"> "); 
+document.writeln("                     <li><a href=\"group.html\">Home</a></li> "); 
+document.writeln("                     <li><a href=\"about.html\">About</a></li> "); 
+document.writeln("                     <li><a href=\"contact.html\">Contact</a></li> "); 
+document.writeln("                     <li><a href=\"customer.html\">New Customer</a></li> "); 
+document.writeln("                     <li><a href=\"#\"><span class=\"glyphicon glyphicon-search\"></span> Search</a></li> "); 
+document.writeln("                     <li><a href=\"cart.html\"><span class=\"glyphicon glyphicon-shopping-cart\"></span> Cart</a></li> "); 
+document.writeln("                 </ul> "); 
+document.writeln("             </div> "); 
+document.writeln("         </div> "); 
+document.writeln("     </nav> ");
+// -->
