@@ -99,6 +99,27 @@ body {
     background-color: black;
     color: #eaeaea;
 }
+@media screen and (max-width: 725px) {
+    body
+    {
+        margin-bottom: 0;
+    }
+    .footer  {
+        height: auto; 
+        position: static;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body
+    {
+        margin-bottom: 190px;
+    }
+    .footer  {
+        height: 190px;
+        position:absolute;
+    }
+}
+
 
 .copyright {
     margin-bottom: 0;
