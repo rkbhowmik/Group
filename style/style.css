@@ -124,3 +124,13 @@ body {
 .copyright {
     margin-bottom: 0;
 }
+
+.container-fluid.text-center > .container {
+margin-top:10px;
+}
+label {
+    width: 80px;
+    margin-bottom: 12px;
+
+    padding: 10px;
+}
