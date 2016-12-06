@@ -1,11 +1,4 @@
--Skapa subsidor
-	-About
-	-contact
-	-Customer
-
 -Fylla sidor med innehåll
-
--länka sidor till rätt källa
 
 -styla fonter,typsnitt
 
