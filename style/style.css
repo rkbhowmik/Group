@@ -191,6 +191,15 @@ margin-bottom:10px;
         }
 
          /* BELOW IS CSS FROM DESKTOP.HTML */
+     .containerlaptops {
+    width:250px;
+    height:150px;
+    border:solid black 1px;
+    position:relative;
+    font-family:"Arial Black", Gadget, sans-serif;
+    float:left;
+    margin:20px;
+   }
 
         .topbox {
             width: 248px;
@@ -218,3 +227,7 @@ margin-bottom:10px;
             background-color: whitesmoke;
             cursor: pointer;
         }    
+
+        .carousel-control.left, .carousel-control.right {
+    background-image: none
+}
