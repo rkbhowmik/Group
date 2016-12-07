@@ -1,8 +1,3 @@
--Fylla sidor med innehåll
-
--styla fonter,typsnitt
-
--sticky footer
-
-Extra bonus:
--Skapa logga
+Jonas
+-responsive på productpage
+-fonts topnav
