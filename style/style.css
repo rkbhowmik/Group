@@ -272,3 +272,6 @@ display:none;
 {
     margin-bottom: 10px;
 }
+ul.nav.nav-pills.nav-stacked.affix-top li {
+    text-align: center;
+}
