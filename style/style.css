@@ -235,3 +235,13 @@ display:none;
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto:300,400,500,700,900');
+
+   /* Making right list responsive on group.html */
+@media only screen and (max-width: 995px) {
+    .containerlastsold {
+         width:290px!important;
+         height:330px!important;
+         flex-direction: column!important;
+         justify-content: center!important;
+    }
+}
