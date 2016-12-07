@@ -16,6 +16,7 @@
 
 .footer ul {
     list-style-type: none;
+    padding:0;
 }
 /*Affix plugin allows an element to become affixed (locked) to an area on the page.*/
 .affix {
@@ -62,6 +63,9 @@
         font-size: 48px;
         padding-right: 10px;
     }
+    .well{
+        background-color: rgba(50, 153, 158, 0.12);
+    }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -83,6 +87,7 @@ body {
     height: 300px;
     background-color: black;
     color: #eaeaea;
+    margin-top:10px !important;
 }
 @media screen and (max-width: 725px) {
     body
