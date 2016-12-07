@@ -245,3 +245,20 @@ button.navbar-toggle.collapsed
 {
     display:none;
 }
+
+
+@media screen and (max-width: 425px) {
+    button.navbar-toggle{
+        display:none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .mobile-view-li {
+        display:block !important;
+    }
+}
+@media screen and (min-width: 765px) {
+       .mobile-view-li {
+        display:none !important;
+    }
+}
