@@ -1,3 +1,4 @@
 Jonas
 -responsive på productpage
 -fonts topnav
+-priser på prod,  mellanslag
