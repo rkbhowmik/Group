@@ -9,7 +9,7 @@ document.writeln("                 </button> ");
 document.writeln("                 <a class=\"navbar-brand navbar-link\" href=\"#\"><span style=\"color: #fff\"><strong>ComputerShop Inc.</strong></span> </a> "); 
 document.writeln("             </div> "); 
 document.writeln("             <div class=\"collapse navbar-collapse\" id=\"myNavbar\"> "); 
-document.writeln("                 <ul class=\"nav navbar-nav navbar-right\"> "); 
+document.writeln("                 <ul class=\"nav navbar-nav navbar-right\"> ");
 document.writeln("                     <li><a href=\"group.html\">Home</a></li> "); 
 document.writeln("                     <li><a href=\"about.html\">About</a></li> "); 
 document.writeln("                     <li><a href=\"contact.html\">Contact</a></li> "); 

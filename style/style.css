@@ -231,3 +231,11 @@ margin-bottom:10px;
         {
             margin-bottom:0;
         }
+div#myNavbar {
+display:none;
+}
+button.navbar-toggle.collapsed
+{
+    display:none;
+}
+
