@@ -257,3 +257,14 @@ display:none;
          
     }
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .col-sm-3.containerlaptops {
+         width:270px!important;
+         height:150px!important;
+         flex-direction: column!important;
+         justify-content: center!important;
+         
+    }
+}
