@@ -23,6 +23,5 @@ document.writeln("                         <li><a href=\"#\">Careers</a></li> ")
 document.writeln("                     </ul> "); 
 document.writeln("                 </div> "); 
 document.writeln("                 <div class=\"col-md-12 col-sm-4 item social\"><a href=\"#\"><i class=\"fa fa-twitter-square\" style=\"font-size: 24px;\" aria-hidden=\"true\"></i></a> <a href=\"#\"><i class=\"fa fa-facebook-official\" style=\"font-size: 24px;\" aria-hidden=\"true\"></i></a> <a href=\"#\"><i class=\"fa fa-snapchat-square\" style=\"font-size: 24px;\" aria-hidden=\"true\"></i></a> <a href=\"#\"><i class=\"fa fa-instagram\" style=\"font-size: 24px;\" aria-hidden=\"true\"></i></a></div> "); 
-document.writeln("             </div> "); 
-document.writeln("             <p class=\"copyright\">ComputerShop Inc. © 2016</p> "); 
+document.writeln("             </div> ");
 document.writeln("         </div> ");
