@@ -218,6 +218,35 @@ margin-bottom:10px;
             margin-bottom:0;
         }
 
+        /* CSS Style for about.html*/
+        .wrapper_about {
+            margin-top: 0;
+            position: relative;
+            float: right;
+        }
+
+            .wrapper_about img {
+                display: block;
+                max-width: 100%;
+                opacity: 0.9;
+            }
+
+            .wrapper_about .overlay {
+                margin-top: 35%;
+                text-align: right;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 100%;
+                color: white;
+                font-size: 48px;
+                padding-right: 40px;
+            }
+
+        .person {
+            margin-left: 5px;
+        }
+
                  /* Hiding grey bottomnav in carousel/slideshow */
 
         .carousel-indicators {
