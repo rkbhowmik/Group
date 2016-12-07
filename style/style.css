@@ -231,3 +231,9 @@ margin-bottom:10px;
         {
             margin-bottom:0;
         }
+
+                 /* Hiding grey bottomnav in carousel/slideshow */
+
+        .carousel-indicators {
+            display:none;
+        }
