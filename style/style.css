@@ -149,10 +149,6 @@ margin-bottom:10px;
 
         /* Add a gray background color and some padding to the footer */
 
-        .col-sm-3, .col-sm-6, .col-sm-9 {
-            color: gray;
-            text-align: left;
-        }
 
         h1, h2 {
             color: black;
@@ -171,16 +167,6 @@ margin-bottom:10px;
             border: none;
         }
 
-        .col-sm-6 {
-            min-height: 553px;
-        }
-
-        .col-sm-9 {
-            border-bottom: 5px solid lightgray;
-            border-top: none;
-            border-right: none;
-            padding: 5px;
-        }
 
         .nav, nav-pills, nav-stacked affix-top {
             position: relative;
