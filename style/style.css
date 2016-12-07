@@ -241,24 +241,11 @@ margin-bottom:10px;
 div#myNavbar {
 display:none;
 }
-button.navbar-toggle.collapsed
+
+.navbar
 {
-    display:none;
+    height: auto;
 }
-
-
-@media screen and (max-width: 425px) {
-    button.navbar-toggle{
-        display:none;
-    }
-}
-@media screen and (max-width: 425px) {
-    .mobile-view-li {
-        display:block !important;
-    }
-}
-@media screen and (min-width: 765px) {
-       .mobile-view-li {
-        display:none !important;
-    }
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Roboto:300,400,500,700,900');
