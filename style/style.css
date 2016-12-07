@@ -184,9 +184,8 @@ margin-bottom:10px;
     border:solid black 1px;
     position:relative;
     font-family:"Arial Black", Gadget, sans-serif;
-    float:left;
     margin:20px;
-   }
+    }
 
         .topbox {
             width: 248px;
@@ -210,8 +209,8 @@ margin-bottom:10px;
             padding-top: 10px;
         }
 
-        .col-sm-3 div:hover {
-            background-color: whitesmoke;
+        .containerlaptops:hover {
+            background: whitesmoke;
             cursor: pointer;
         }    
 
@@ -277,5 +276,8 @@ display:none;
          height:330px!important;
          flex-direction: column!important;
          justify-content: center!important;
+         
     }
 }
+
+
