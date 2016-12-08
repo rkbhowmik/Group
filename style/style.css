@@ -276,3 +276,10 @@ ul.nav.nav-pills.nav-stacked.affix-top li {
 #container{
     width: auto;
 }
+.navbar-inverse .navbar-nav>li>a
+{
+    color:#e6e4e4;
+}
+.newsheader{
+    font-family: 'Open Sans', Arial;
+}
