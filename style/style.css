@@ -292,3 +292,7 @@ ul.nav.nav-pills.nav-stacked.affix-top li {
 .well.news {
     border-top-left-radius: 0px;
 }
+
+.form {
+    text-align: left;
+}
