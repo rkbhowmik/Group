@@ -281,5 +281,20 @@ ul.nav.nav-pills.nav-stacked.affix-top li {
     color:#e6e4e4;
 }
 .newsheader{
-    font-family: 'Open Sans', Arial;
+     font-family: 'Open Sans', Arial;
+    display: inline-block;
+    background: #e7f3f4;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    border: 1px solid #e3e3e3;
+    border-bottom: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0px;
+    font-size:15px;
+
+}
+.well.news {
+    border-top-left-radius: 0px;
 }
