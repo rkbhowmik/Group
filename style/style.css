@@ -282,3 +282,8 @@ display:none;
 ul.nav.nav-pills.nav-stacked.affix-top li {
     text-align: center;
 }
+@media only screen and (max-width: 400px) {
+    .dropdown-toggle {
+        display: static;
+    }
+}
