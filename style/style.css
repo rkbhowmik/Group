@@ -46,10 +46,17 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+.col-sm-4.item.social {
+    text-align: center;
+    margin-top: 10px;
+}
 body {
     /* Margin bottom by footer height */
     margin-bottom: 330px;
+}
+span.copyright {
+    text-align: center;
+    display: block;
 }
 
 .footer {
@@ -152,34 +159,28 @@ margin-bottom:10px;
         }
 
          /* BELOW IS CSS FROM DESKTOP.HTML */
+     
      .containerlaptops {
-    width:250px;
-    height:150px;
+    width:100%;
+    height:100%;
     border:solid black 1px;
     position:relative;
     font-family:"Arial Black", Gadget, sans-serif;
-    margin:20px;
+    margin-bottom:20px;
     }
 
         .topbox {
-            width: 248px;
-            height: 30px;
+            width: 100%;
+            height: 100%;
             background-color: lightgrey;
             padding: 1px;
         }
 
-        .containerlaptops .content > img {
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            top: 40%;
-            left: 10%;
-        }
-
         .boxtext {
             text-align: center;
+            position:relative;
             width: 70%;
-            float: right;
+            height:50%;
             padding-top: 10px;
         }
 
@@ -258,22 +259,18 @@ display:none;
     }
 }
 
-
-@media only screen and (max-width: 1200px) {
-    .col-sm-3.containerlaptops {
-         width:270px!important;
-         height:150px!important;
-         flex-direction: column!important;
-         justify-content: center!important;
-         
-    }
-}
 .addmarginbtm
 {
     margin-bottom: 10px;
 }
 ul.nav.nav-pills.nav-stacked.affix-top li {
     text-align: center;
+}
+@media only screen and (max-width: 400px) {
+    .dropdown-toggle {
+        display: static;
+    }
+}
 }
 
 #container{
