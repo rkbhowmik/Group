@@ -6,7 +6,7 @@ document.writeln("                     <span class=\"icon-bar\"></span> ");
 document.writeln("                     <span class=\"icon-bar\"></span> "); 
 document.writeln("                     <span class=\"icon-bar\"></span> "); 
 document.writeln("                 </button> "); 
-document.writeln("                 <a class=\"navbar-brand navbar-link\" href=\"#\"><span style=\"color: #fff\"><strong>ComputerShop Inc.</strong></span> </a> "); 
+document.writeln("                 <a class=\"navbar-brand navbar-link\" href=\"group.html\"><span style=\"color: #fff\"><strong>ComputerShop Inc.</strong></span> </a> "); 
 document.writeln("             </div> "); 
 document.writeln("             <div class=\"collapse navbar-collapse\" id=\"myNavbar\"> "); 
 document.writeln("                 <ul class=\"nav navbar-nav navbar-right\"> ");

@@ -46,10 +46,17 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+.col-sm-4.item.social {
+    text-align: center;
+    margin-top: 10px;
+}
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 300px;
+    margin-bottom: 330px;
+}
+span.copyright {
+    text-align: center;
+    display: block;
 }
 
 .footer {
@@ -58,7 +65,7 @@ body {
     width: 100%;
 
     /* Set the fixed height of the footer here */
-    height: 300px;
+    height: 330px;
     background-color: black;
     color: #eaeaea;
     margin-top:10px !important;
@@ -76,10 +83,10 @@ body {
 @media screen and (min-width: 1024px) {
     body
     {
-        margin-bottom: 190px;
+        margin-bottom: 220px;
     }
     .footer  {
-        height: 190px;
+        height: 220px;
         position:absolute;
     }
 }
@@ -219,7 +226,7 @@ margin-bottom:10px;
             margin-left: 5px;
         }
 
-        .well{
+        .well {
         background-color: rgba(50, 153, 158, 0.12);
     }
 
