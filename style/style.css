@@ -271,3 +271,8 @@ ul.nav.nav-pills.nav-stacked.affix-top li {
         display: static;
     }
 }
+}
+
+#container{
+    width: auto;
+}
