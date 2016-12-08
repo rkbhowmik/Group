@@ -275,3 +275,7 @@ display:none;
 ul.nav.nav-pills.nav-stacked.affix-top li {
     text-align: center;
 }
+
+#container{
+    width: auto;
+}
