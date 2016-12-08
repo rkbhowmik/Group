@@ -46,10 +46,17 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+.col-sm-4.item.social {
+    text-align: center;
+    margin-top: 10px;
+}
 body {
     /* Margin bottom by footer height */
     margin-bottom: 330px;
+}
+span.copyright {
+    text-align: center;
+    display: block;
 }
 
 .footer {
